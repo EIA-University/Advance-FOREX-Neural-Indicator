@@ -28,4 +28,8 @@ Listo, este script generará cada 12 horas *(este intervalo de tiempo puede ser 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/4-FinScript.png">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/5-Files.png">
 </p>
+
+
+#### 2. Ejecución del modelo
