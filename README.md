@@ -41,7 +41,7 @@ Una vez hecho esto, se procede a modificar el nombre de usuario en las variables
   <img src="https://i.gyazo.com/51601737afca1fcab8ddfbe9fe023cc9.gif" alt="Image from Gyazo" width="688"/>
 </p>
 
-Finalmente, se ejecuta el modelo mediante el archivo ***Model.R*** y el botón ***Run***, como se muestra en la siguiente imagen.
+Finalmente, se ejecuta el modelo mediante el archivo ***Model.R*** y el botón ***Run*** (después de seleccionar todo el código), como se muestra en la siguiente imagen.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/8-RunModel.png">
@@ -64,7 +64,7 @@ Además de las creación de dos archivos: ***GeneticValues.CSV***, con los valor
 
 #### 3. EJECUCIÓN DEL ADVANCE INDICATOR
 
-Para utilizar el Advance Neural Indicator, es necesario mover éste archivo a la carpeta de indicadores de METATRADER 5.0, la cual se encuentra en la siguiente ruta:
+Para utilizar el Advance Neural Indicator, es necesario mover el archivo ***AdvanceNeuralIndicator.mq5*** a la carpeta de indicadores de METATRADER 5.0, la cual se encuentra en la siguiente ruta:
 
 > C:\Users\Username\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Indicators
 
@@ -79,4 +79,10 @@ Posteriormente al abrir MetaEditor el indicador estará disponible en la carpeta
 
 <p align="center">
   <img src="https://i.gyazo.com/413c155d0d572f946c48f40317b44dd3.png">
+</p>
+
+En la sección de definición de variables será posible configurar, entre otros parámetros del modelo, el número de retardos a tener en cuenta para las estimaciones y el número de neuronas ocultas:
+
+<p align="center">
+  <img src="https://i.gyazo.com/7d33627ae6ce4e6646f258e3d2c8e155.png">
 </p>
