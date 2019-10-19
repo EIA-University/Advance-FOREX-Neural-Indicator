@@ -1,2 +1,5 @@
-# Advance-FOREX-Neural-Indicator
-An advanced neural indicator for wherever currency in MetaTrader 5
+# MANUAL DE USUARIO
+
+### ACTIVAR LA DESCARGA AUTOMÁTICA DE INFORMACIÓN DE DIVISAS
+
+blabla
