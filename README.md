@@ -64,5 +64,19 @@ Además de las creación de dos archivos: ***GeneticValues.CSV***, con los valor
 
 #### 3. EJECUCIÓN DEL ADVANCE INDICATOR
 
+Para utilizar el Advance Neural Indicator, es necesario mover éste archivo a la carpeta de indicadores de METATRADER 5.0, la cual se encuentra en la siguiente ruta:
+
+> C:\Users\Username\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Indicators
 
 
+El resultado será algo así:
+
+<p align="center">
+  <img src="https://i.gyazo.com/17fa3c9ab59e030ccd0f58a2ca286fc7.png">
+</p>
+
+Posteriormente al abrir MetaEditor el indicador estará disponible en la carpeta de indicadores.
+
+<p align="center">
+  <img src="https://i.gyazo.com/413c155d0d572f946c48f40317b44dd3.png">
+</p>
