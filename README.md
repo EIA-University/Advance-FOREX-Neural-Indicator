@@ -10,6 +10,22 @@ El archivo MQL5 llamado ***GetData.MQL5***, deberá ser movido a la carpeta ***/
 
 El resultado será algo así:
 
-![1-ScriptsFolder](https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/1-ScriptsFolder.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/1-ScriptsFolder.png">
+</p>
 
-Una vez hecho esto, se procede a correr el script anteriormente mencionado desde el software MQL5, lo cual generará cada 12 horas *(este intervalo de tiempo puede ser modificado desde el mismo archivo)*  la información respectiva a la divisa seleccionada utilizando periodos de un minuto, esta será consolidada y guardada en un archivo CSV llamado ***Dataset*** en la carpeta  ***/Files***, adyacente a la ubicación mencionada anteriormente.
+Una vez hecho esto, se procede a correr el script anteriormente mencionado desde el software MQL5, dando click en el botón verde señalado en la imagen, luego aparacerá una ventana de confirmación en la cual solo se da click en aceptar.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/2-RunScript.png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/3-AcceptScript.png">
+</p>
+
+Listo, este script generará cada 12 horas *(este intervalo de tiempo puede ser modificado desde el mismo archivo)*  la información respectiva a la divisa seleccionada utilizando periodos de un minuto, esta será consolidada y guardada en un archivo CSV llamado ***Dataset*** en la carpeta  ***/Files***, adyacente a la ubicación mencionada anteriormente, como se muestra en la siguiente imagen.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/4-FinScript.png">
+</p>
