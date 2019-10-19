@@ -32,14 +32,10 @@ Listo, este script generará cada 12 horas *(este intervalo de tiempo puede ser 
 Una vez se crea el ***Dataset***, se procede a correr el modelo escrito en el lenguaje R, para este ejemplo, utilizaremos el software RStudio, entonces ejecutaremos los archivos ***Model.R*** y ***Functions.MQL5*** (para seguir la lógica del tutorial, estos archivos deben estar juntos en la misa carpeta), se debe configurar primero el directorio de trabajo de la siguiente forma.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/6-WorkingDirectory.png">
-</p>
-
-<p align="center">
 <img src="https://i.gyazo.com/ba84fcb1a5a584c91b538b90f9ed69c8.gif" alt="Image from Gyazo" width="546"/>
 </p>
 
-Una vez hecho esto, se procede a modificar el nombre de usuario en las variables seañaladas a continación (dentro del archivo ***Model.R***).
+Una vez hecho esto, se procede a modificar el nombre de usuario en las variables señaladas a continación (dentro del archivo ***Model.R***).
 
 <p align="center">
   <img src="https://i.gyazo.com/51601737afca1fcab8ddfbe9fe023cc9.gif" alt="Image from Gyazo" width="688"/>
