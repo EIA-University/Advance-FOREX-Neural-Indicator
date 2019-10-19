@@ -1,11 +1,21 @@
+# General imports
 library(readr)
+
+#-----------------------------------------------------------------------------#
+# Put your user name between asterisks, please without asterisks, remove them #
+#-----------------------------------------------------------------------------#
+pathDataset = "C:/Users/* YOUR USER NAME HERE */AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Files/Dataset.csv"
+pathModelValues = "C:/Users/* YOUR USER NAME HERE */AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Files/ModelValues.csv"
+pathGeneticValues = "C:/Users/* YOUR USER NAME HERE */AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Files/GeneticValues.csv"
+#-----------------------------------------------------------------------------#
+#                                  end                                        #
+#-----------------------------------------------------------------------------#
 
 # Run the file that contain all the functions
 source("Riesgo Mercado/Articulo/Functions.R")
 
 # Import data from Metatrader
-path = "C:/Users/Diego Oquendo/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Files/Dataset.csv"
-Data = read.csv(path, header = TRUE, sep = ";", encoding = "UTF-16LE", skipNul = TRUE)
+Data = read.csv(pathDataset, header = TRUE, sep = ";", encoding = "UTF-16LE", skipNul = TRUE)
 
 p = 4 # Number of delays for the AR model
 Data = getDataBase(Data, p)
@@ -26,8 +36,5 @@ NIT = 100 # Number of iterations
 modelValues = runMadaline(X, yd, p, NO, ND, alfa, NIT)
 
 # Write the data in a .csv
-path1 = "C:/Users/Diego Oquendo/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Files/ModelValues.csv"
-write.csv(modelValues, file = path1, row.names = FALSE)
-
-path2 = "C:/Users/Diego Oquendo/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Files/GeneticValues.csv"
-write.csv(coef[1:(length(coef)-2)], file = path2, row.names = FALSE)
+write.csv(modelValues, file = pathModelValues, row.names = FALSE)
+write.csv(coef[1:(length(coef)-2)], file = pathGeneticValues, row.names = FALSE)
