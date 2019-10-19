@@ -17,8 +17,7 @@ El resultado será algo así:
 Una vez hecho esto, se procede a correr el script anteriormente mencionado desde el software MQL5, dando click en el botón verde señalado en la imagen, luego aparacerá una ventana de confirmación en la cual solo se da click en aceptar.
 
 <p align="center">
-  <video alt="Run Script and then accept." width="1280" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/76d7fcbd22c3e1d27f6b690b96b6f4b7.mp4" type="video/mp4" /></video>
-  
+  <img src="https://i.gyazo.com/76d7fcbd22c3e1d27f6b690b96b6f4b7.gif" alt="Image from Gyazo" width="800"/>
 </p>
 
 Listo, este script generará cada 12 horas *(este intervalo de tiempo puede ser modificado desde el mismo archivo)*  la información respectiva a la divisa seleccionada utilizando periodos de un minuto, ésta será consolidada y guardada en un archivo CSV llamado ***Dataset*** en la carpeta  ***/Files***, adyacente a la ubicación mencionada anteriormente, como se muestra en la siguiente imagen.
@@ -40,10 +39,10 @@ Una vez se crea el ***Dataset***, se procede a correr el modelo escrito en el le
 <img src="https://i.gyazo.com/ba84fcb1a5a584c91b538b90f9ed69c8.gif" alt="Image from Gyazo" width="546"/>
 </p>
 
-Una vez hecho esto, se procede a modificar el nombre de usuario en las variables seañaladas a continación.
+Una vez hecho esto, se procede a modificar el nombre de usuario en las variables seañaladas a continación (dentro del archivo ***Model.R***).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/7-Variables.png">
+  <img src="https://i.gyazo.com/51601737afca1fcab8ddfbe9fe023cc9.gif" alt="Image from Gyazo" width="688"/>
 </p>
 
 Finalmente, se ejecuta el modelo mediante el archivo ***Model.R*** y el botón ***Run***, como se muestra en la siguiente imagen.
