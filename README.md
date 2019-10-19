@@ -31,5 +31,37 @@ Listo, este script generará cada 12 horas *(este intervalo de tiempo puede ser 
   <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/5-Files.png">
 </p>
 
+#### 2. EJECUCIÓN DEL MODELO
 
-#### 2. Ejecución del modelo
+Una vez se crea el ***Dataset***, se procede a correr el modelo escrito en el lenguaje R, para este ejemplo, utilizaremos el software RStudio, entonces ejecutaremos los archivos ***Model.R*** y ***Functions.MQL5*** (para seguir la lógica del tutorial, estos archivos deben estar juntos en la misa carpeta), se debe configurar primero el directorio de trabajo de la siguiente forma.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/6-WorkingDirectory.png">
+</p>
+
+Una vez hecho esto, se procede a modificar el nombre de usuario en las variables seañaladas a continación.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/7-Variables.png">
+</p>
+
+Finalmente, se ejecuta el modelo mediante el archivo ***Model.R*** y el botón ***Run***, como se muestra en la siguiente imagen.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/8-RunModel.png">
+</p>
+
+El resultado sera lo siguiente:
+
+En consola se puede observar el índice de correlación y el error cuadrático total.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/9-Console.png">
+</p>
+
+Además de las creación de dos archivos: ***GeneticValues.CSV***, con los valores de los pesos de los retardos y ***ModelValues.CSV***, con los valores de W, C y el alfa.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/10-GeneticValues.png">
+  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/11-ModelValues.png">
+</p>
