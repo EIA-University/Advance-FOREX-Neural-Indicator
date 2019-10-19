@@ -81,7 +81,7 @@ Posteriormente al abrir MetaEditor el indicador estará disponible en la carpeta
   <img src="https://i.gyazo.com/413c155d0d572f946c48f40317b44dd3.png">
 </p>
 
-En la sección de definición de variables será posible configurar, entre otros parámetros del modelo, el número de retardos a tener en cuenta para las estimaciones y el número de neuronas ocultas:
+En la sección de definición de variables será posible configurar, entre otros parámetros del modelo, el número de retardos a tener en cuenta para las estimaciones **delays** y el número de neuronas ocultas **hiddenNeurons**
 
 <p align="center">
   <img src="https://i.gyazo.com/7d33627ae6ce4e6646f258e3d2c8e155.png">
