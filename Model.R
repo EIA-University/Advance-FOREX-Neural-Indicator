@@ -12,7 +12,7 @@ pathGeneticValues = "C:/Users/* YOUR USER NAME HERE */AppData/Roaming/MetaQuotes
 #-----------------------------------------------------------------------------#
 
 # Run the file that contain all the functions
-source("Riesgo Mercado/Articulo/Functions.R")
+source("Functions.R")
 
 # Import data from Metatrader
 Data = read.csv(pathDataset, header = TRUE, sep = ";", encoding = "UTF-16LE", skipNul = TRUE)
