@@ -55,10 +55,14 @@ En consola se puede observar el índice de correlación y el error cuadrático t
   <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/9-Console.png">
 </p>
 
-Además de las creación de dos archivos: ***GeneticValues.CSV***, con los valores de los pesos de los retardos y ***ModelValues.CSV***, con los valores de W, C y el alfa.
+Además de las creación de dos archivos: ***GeneticValues.CSV***, con los valores de los pesos de los retardos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/10-GeneticValues.png">
+ </p>
+ 
+ De igual manera se genera el archivo ***ModelValues.CSV***, el cual contiene los valores de W, C y el alfa en ese orden.
+ <p>
   <img src="https://i.gyazo.com/689ca491371d43cbdd9aaf44c01dc187.png">
 </p>
 
