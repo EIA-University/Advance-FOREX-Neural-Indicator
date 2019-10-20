@@ -59,7 +59,7 @@ Además de las creación de dos archivos: ***GeneticValues.CSV***, con los valor
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/10-GeneticValues.png">
-  <img src="https://raw.githubusercontent.com/EIA-University/Advance-FOREX-Neural-Indicator/master/imgs/11-ModelValues.png">
+  <img src="https://i.gyazo.com/689ca491371d43cbdd9aaf44c01dc187.png">
 </p>
 
 #### 3. EJECUCIÓN DEL ADVANCE INDICATOR
