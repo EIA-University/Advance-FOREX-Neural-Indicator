@@ -90,5 +90,3 @@ En la sección de definición de variables será posible configurar, entre otros
 <p align="center">
   <img src="https://i.gyazo.com/7d33627ae6ce4e6646f258e3d2c8e155.png">
 </p>
-
-## Aqui lo de borrar
